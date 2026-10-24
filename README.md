@@ -69,7 +69,7 @@ README.md          → Project summary and usage
 
 ## 🎉 How to Use This Project
 
-1. **Write Scenes**: Use [`/prompts/`](https://github.com/RobinaMirbahar/crayon-skies-veo3-/blob/main/prompts.md) to explore and edit Gemini prompts
+1. **Write Scenes**: Use [`/prompts/`](https://github.com/RobinaMirbahar/crayon-skies-veo3/blob/main/prompts.md) to explore and edit Gemini prompts
 2. **Generate with Veo**: Feed prompts into Veo for scene generation
    🔗 [Veo by DeepMind](https://deepmind.google/models/veo/)
    🔗 [Veo 3 API Documentation (Vertex AI)](https://cloud.google.com/vertex-ai/generative-ai/docs/models/veo/3-0-generate-preview)
@@ -77,7 +77,7 @@ README.md          → Project summary and usage
 4. **Export & Share**: Enjoy your cinematic Google Jet adventure!
 
 📄 [Storyboard & Docs](https://github.com/RobinaMirbahar/crayon-skies-veo3)
-📂 [Prompt Files](https://github.com/RobinaMirbahar/crayon-skies-veo3-/blob/main/prompts.md)
+📂 [Prompt Files](https://github.com/RobinaMirbahar/crayon-skies-veo3/blob/main/prompts.md)
 
 ---
 
