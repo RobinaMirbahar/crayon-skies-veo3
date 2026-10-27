@@ -1,5 +1,48 @@
 # ✨ Crayon Skies: A Veo 3 + Gemini Storyboard Adventure
 
+![Video_Synthesis](https://img.shields.io/badge/Video_Synthesis-Google_Veo_3-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Storyboarding](https://img.shields.io/badge/Storyboarding-Google_Gemini_API-0F9D58?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Aesthetic](https://img.shields.io/badge/Aesthetic-Whimsical_Crayon_3D-FF6B6B?style=for-the-badge&logo=sparkles&logoColor=white)
+![Creator](https://img.shields.io/badge/Creator-Robina_Mirbahar-181717?style=for-the-badge&logo=github&logoColor=white)
+
+> **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) (Google Developer Expert in Cloud & AI)  
+> **Focus:** Multi-Scene Storyboard Choreography, Hand-Drawn Crayon Aesthetics & Cinematic Video Generation with Google Veo 3
+
+---
+
+## 🎯 Why I Built Crayon Skies — Whimsical AI Video Storytelling with Google Veo 3 & Gemini (Engineering Purpose & Real-World Value)
+
+### 1. 🖍️ Preserving Tactile Hand-Crafted Art Styles in Generative Video
+AI video models often default to generic glossy CGI. I created *Crayon Skies* to prove how structured style anchors in Google Veo 3 can maintain a warm, tactile pastel-and-crayon picture-book aesthetic across every shot.
+
+### 2. 🧭 Gemini-Assisted Scene Continuity
+I used Google Gemini to translate high-level narrative beats into camera trajectories, lighting transitions, and motion prompts that keep visual continuity intact.
+
+### 3. 🎬 Open Prompt & Storyboard Reference
+Every scene prompt, camera movement cue, and workflow note is documented so fellow creators can reproduce the pipeline.
+
+---
+
+## 🏗️ System Architecture
+
+```mermaid
+flowchart TD
+    subgraph Story ["1. Gemini Storyboard Architect"]
+        S_Beat["Narrative Arc & Scene Transitions"]
+        S_Style["Tactile Crayon & Pastel Style Anchor"]
+    end
+    subgraph Veo ["2. Google Veo 3 Video Generation"]
+        V_Clips["Multi-Scene 1080p Video Synthesis"]
+        V_Motion["Camera Pan, Parallax & Lighting Control"]
+    end
+    subgraph Cut ["3. Final Storyboard Film"]
+        C_Film["Crayon Skies Short Film"]
+    end
+    S_Beat & S_Style --> V_Clips --> V_Motion --> C_Film
+```
+
+---
+
 [📺 Watch the Short Film on YouTube](https://youtu.be/qwILtvTzofc)
 
 > “One girl. One crayon. One very curious jet.”
@@ -123,3 +166,22 @@ Technical Writer & Cloud Architect
 <div align="center">
   <img src="https://raw.githubusercontent.com/RobinaMirbahar/RobinaMirbahar/main/ProfileImages/GithubBanner.svg" alt="Robina Mirbahar Banner" width="100%" />
 </div>
+
+<!-- AUTHOR_SIGNATURE_START -->
+---
+
+## 👩‍💻 About the Author
+
+**Robina Mirbahar — Google Cloud & AI Architect**  
+*Google Developer Expert (GDE) in Cloud & AI • Published Author • Multi-Agent Systems & Serverless GPU Builder*
+
+[![GitHub](https://img.shields.io/badge/GitHub-RobinaMirbahar-181717?style=for-the-badge&logo=github)](https://github.com/RobinaMirbahar)
+[![Medium](https://img.shields.io/badge/Medium-@robinamirbahar-000000?style=for-the-badge&logo=medium)](https://medium.com/@robinamirbahar)
+[![DEV.to](https://img.shields.io/badge/DEV.to-robinamirbahar-0A0A0A?style=for-the-badge&logo=devdotto)](https://dev.to/robinamirbahar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Robina_Mirbahar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/robina-mirbahar)
+[![GDE Profile](https://img.shields.io/badge/Google_Developer_Expert-Profile-4285F4?style=for-the-badge&logo=google)](https://g.dev/RobinaMirbahar)
+[![YouTube](https://img.shields.io/badge/YouTube-@RobinaMirbahar-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@RobinaMirbahar)
+[![X](https://img.shields.io/badge/X-@RobinaMirbahar-000000?style=for-the-badge&logo=x)](https://x.com/RobinaMirbahar)
+[![Amazon Author](https://img.shields.io/badge/Amazon_Book-Cloud_Computing_Voyage-FF9900?style=for-the-badge&logo=amazon)](https://www.amazon.com/dp/B0D146249R)
+
+<!-- AUTHOR_SIGNATURE_END -->
