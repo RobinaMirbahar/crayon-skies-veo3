@@ -73,8 +73,8 @@ Welcome to **Crayon Skies**, a 1-minute magical short story crafted using **Gemi
 | **Veo 3**    | Cinematic video creation            |
 | **CapCut** | Merging, trimming, and transitions  |
 
-🔗 [Veo by DeepMind](https://deepmind.google/models/veo/)
-🔗 [Veo API Docs (Vertex AI)](https://cloud.google.com/vertex-ai/generative-ai/docs/models/veo/3-0-generate-preview)
+🔗 [Veo by DeepMind](https://deepmind.google/models/veo/?utm_campaign=deveco_gdemembers&utm_source=deveco)
+🔗 [Veo API Docs (Vertex AI)](https://cloud.google.com/vertex-ai/generative-ai/docs/models/veo/3-0-generate-preview?utm_campaign=deveco_gdemembers&utm_source=deveco)
 
 ---
 
@@ -114,8 +114,8 @@ README.md          → Project summary and usage
 
 1. **Write Scenes**: Use [`/prompts/`](https://github.com/RobinaMirbahar/crayon-skies-veo3/blob/main/prompts.md) to explore and edit Gemini prompts
 2. **Generate with Veo**: Feed prompts into Veo for scene generation
-   🔗 [Veo by DeepMind](https://deepmind.google/models/veo/)
-   🔗 [Veo 3 API Documentation (Vertex AI)](https://cloud.google.com/vertex-ai/generative-ai/docs/models/veo/3-0-generate-preview)
+   🔗 [Veo by DeepMind](https://deepmind.google/models/veo/?utm_campaign=deveco_gdemembers&utm_source=deveco)
+   🔗 [Veo 3 API Documentation (Vertex AI)](https://cloud.google.com/vertex-ai/generative-ai/docs/models/veo/3-0-generate-preview?utm_campaign=deveco_gdemembers&utm_source=deveco)
 3. **Edit in CapCut**: Use `/video-edits/` timing to merge and transition clips
 4. **Export & Share**: Enjoy your cinematic Google Jet adventure!
 
