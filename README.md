@@ -25,8 +25,6 @@
 
 ## 📐 Multi-Scene Storyboard & Synthesis Architecture
 
-> *(🩷 Pink = Style & Character Anchor | 💙 Blue = Gemini Scene Choreography | 💚 Green = Veo 3 1080p Video Synthesis | 💜 Purple = Final Storyboard Cut)*
-
 ```mermaid
 flowchart TD
     subgraph Story ["1. Style & Narrative Anchor (prompts.md)"]
@@ -45,14 +43,6 @@ flowchart TD
         C_Film["Crayon Skies 60-Second Short Film"]
     end
     S_Beat & S_Style --> G_2D3D & G_Flight --> V_Clips --> V_Motion --> C_Film
-
-    style S_Beat fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style S_Style fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style G_2D3D fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style G_Flight fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style V_Clips fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style V_Motion fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style C_Film fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
 ```
 
 ---
