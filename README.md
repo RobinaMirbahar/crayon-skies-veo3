@@ -1,187 +1,84 @@
-# ✨ Crayon Skies: A Veo 3 + Gemini Storyboard Adventure
+# ✨ Crayon Skies: Multi-Scene AI Video Storytelling with Google Gemini & Veo 3
 
 ![Video_Synthesis](https://img.shields.io/badge/Video_Synthesis-Google_Veo_3-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Storyboarding](https://img.shields.io/badge/Storyboarding-Google_Gemini_API-0F9D58?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Aesthetic](https://img.shields.io/badge/Aesthetic-Whimsical_Crayon_3D-FF6B6B?style=for-the-badge&logo=sparkles&logoColor=white)
-![Creator](https://img.shields.io/badge/Creator-Robina_Mirbahar-181717?style=for-the-badge&logo=github&logoColor=white)
+[![Author](https://img.shields.io/badge/Author-Robina_Mirbahar-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RobinaMirbahar)
 
-> **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) (Google Developer Expert in Cloud & AI)  
-> **Focus:** Multi-Scene Storyboard Choreography, Hand-Drawn Crayon Aesthetics & Cinematic Video Generation with Google Veo 3
-
----
-
-## 🎯 Why I Built Crayon Skies — Whimsical AI Video Storytelling with Google Veo 3 & Gemini (Engineering Purpose & Real-World Value)
-
-### 1. 🖍️ Preserving Tactile Hand-Crafted Art Styles in Generative Video
-AI video models often default to generic glossy CGI. I created *Crayon Skies* to prove how structured style anchors in Google Veo 3 can maintain a warm, tactile pastel-and-crayon picture-book aesthetic across every shot.
-
-### 2. 🧭 Gemini-Assisted Scene Continuity
-I used Google Gemini to translate high-level narrative beats into camera trajectories, lighting transitions, and motion prompts that keep visual continuity intact.
-
-### 3. 🎬 Open Prompt & Storyboard Reference
-Every scene prompt, camera movement cue, and workflow note is documented so fellow creators can reproduce the pipeline.
+> **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) ([Google Developer Expert in Cloud & AI](https://developers.google.com/profile/u/106918534005910641104?utm_campaign=deveco_gdemembers&utm_source=deveco) · Google Cloud Champion Innovator · Co-Author of [*AI Engineering*](https://www.amazon.com/dp/B0GWCZWCF4))  
+> **Companion Film & Showcase:** 📺 [Watch *Crayon Skies* on YouTube](https://www.youtube.com/watch?v=qwILtvTzofc) · 🌸 [Companion Repo: *Sofia's Song* (`A-Gemini-Veo-3-Whimsical-Short`)](https://github.com/RobinaMirbahar/A-Gemini-Veo-3-Whimsical-Short)  
+> **Core Stack:** [Google Veo 3 on Vertex AI](https://cloud.google.com/vertex-ai/generative-ai/docs/models/veo/3-0-generate-preview?utm_campaign=deveco_gdemembers&utm_source=deveco), [Google Gemini API](https://ai.google.dev/gemini-api/docs?utm_campaign=deveco_gdemembers&utm_source=deveco), [Google AI Studio](https://aistudio.google.com/?utm_campaign=deveco_gdemembers&utm_source=deveco), Tactile Crayon Style Anchors, and CapCut NLE.
 
 ---
 
-## 🏗️ System Architecture
+## 🎬 What is Crayon Skies?
+
+> *“One girl. One crayon. One very curious jet.”*
+
+**Crayon Skies** is a 60-second animated short crafted using **[Google Gemini](https://ai.google.dev/gemini-api/docs?utm_campaign=deveco_gdemembers&utm_source=deveco)** prompt choreography and **[Google Veo 3](https://deepmind.google/models/veo/?utm_campaign=deveco_gdemembers&utm_source=deveco)** video generation. Rather than defaulting to generic glossy CGI, the pipeline locks a **tactile pastel-and-crayon picture-book aesthetic** across seven sequential shots:
+
+* **Preserve Hand-Crafted Crayon Textures:** Maintain consistent wax-crayon strokes, paper grain, and warm bedroom-to-cloud lighting across every scene transition.
+* **Lock Whimsical Character & Vehicle Descriptors:** Keep the young creator's yellow hoodie, the **Google Jet** (googly eyes, cookie engines, rainbow vapor trail), the aviator teddy bear (Google *"G"* goggles), and the giraffe co-pilot visually consistent.
+* **Choreograph 2D-to-3D Transformation Beats:** Transition seamlessly from flat red-crayon paper scribbles (`Scenes 0–1`) → swirling particle materialization (`Scenes 2–3`) → aerial cloud flight and skywriting finale (`Scenes 4–6`).
+
+---
+
+## 📐 Multi-Scene Storyboard & Synthesis Architecture
+
+> *(🩷 Pink = Style & Character Anchor | 💙 Blue = Gemini Scene Choreography | 💚 Green = Veo 3 1080p Video Synthesis | 💜 Purple = Final Storyboard Cut)*
 
 ```mermaid
 flowchart TD
-    subgraph Story ["1. Gemini Storyboard Architect"]
-        S_Beat["Narrative Arc & Scene Transitions"]
-        S_Style["Tactile Crayon & Pastel Style Anchor"]
+    subgraph Story ["1. Style & Narrative Anchor (prompts.md)"]
+        S_Beat["7-Scene Beat Sheet (0–56s)"]
+        S_Style["Tactile Red-Crayon & Pastel Style Lock"]
     end
-    subgraph Veo ["2. Google Veo 3 Video Generation"]
-        V_Clips["Multi-Scene 1080p Video Synthesis"]
-        V_Motion["Camera Pan, Parallax & Lighting Control"]
+    subgraph Gemini ["2. Shot Choreography (Google Gemini)"]
+        G_2D3D["Act I: 2D Doodle to 3D Materialization (Scenes 0–3)"]
+        G_Flight["Act II: Rainbow Takeoff & Sky Reveal (Scenes 4–6)"]
     end
-    subgraph Cut ["3. Final Storyboard Film"]
-        C_Film["Crayon Skies Short Film"]
+    subgraph Veo ["3. Generative Video Synthesis (Google Veo 3)"]
+        V_Clips["Multi-Scene 1080p Video Clips"]
+        V_Motion["Camera Pan, Parallax & Cloud Lighting"]
     end
-    S_Beat & S_Style --> V_Clips --> V_Motion --> C_Film
+    subgraph Cut ["4. Post-Production Master (CapCut)"]
+        C_Film["Crayon Skies 60-Second Short Film"]
+    end
+    S_Beat & S_Style --> G_2D3D & G_Flight --> V_Clips --> V_Motion --> C_Film
+
+    style S_Beat fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style S_Style fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style G_2D3D fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style G_Flight fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style V_Clips fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style V_Motion fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style C_Film fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
 ```
 
 ---
 
-[📺 Watch the Short Film on YouTube](https://youtu.be/qwILtvTzofc)
+## 🛠️ Core Scene Architecture & Storyboard Matrix
 
-> “One girl. One crayon. One very curious jet.”
-
-Welcome to **Crayon Skies**, a 1-minute magical short story crafted using **Gemini prompts**, brought to life with **Veo video generation**, and finalized through **CapCut editing**. This cinematic story follows a 6-year-old South Asian girl whose crayon doodles spark an unbelievable adventure.
-
----
-
-## 🎮 Project Summary
-
-**Crayon Skies** blends humor, fantasy, and Google-inspired magic realism across 6 scenes. Through the eyes of a creative little girl, we witness a child's drawing spring to life, a jet powered by imagination, and a journey that leads to the unveiling of **VEO 3**.
-
-### Core Ingredients:
-
-* A red **crayon**
-* A **GOOGLE JET** with googly eyes, cookie engines & rainbow trails
-* A girl in a **yellow hoodie** full of dreams
-* A **giraffe pilot** wearing Google “G” goggles
-* A magical sky reveal of **VEO 3**
-
----
-
-## 🔧 Tools Used
-
-| Tool       | Purpose                             |
-| ---------- | ----------------------------------- |
-| **Gemini** | Scene scripting & prompt generation |
-| **Veo 3**    | Cinematic video creation            |
-| **CapCut** | Merging, trimming, and transitions  |
-
-🔗 [Veo by DeepMind](https://deepmind.google/models/veo/?utm_campaign=deveco_gdemembers&utm_source=deveco)
-🔗 [Veo API Docs (Vertex AI)](https://cloud.google.com/vertex-ai/generative-ai/docs/models/veo/3-0-generate-preview?utm_campaign=deveco_gdemembers&utm_source=deveco)
-
----
-
-## 📖 Storyboard Overview
-
-| Scene | Title               | Time      | Description                                      |
-| ----- | ------------------- | --------- | ------------------------------------------------ |
-| Intro | (Mostly) True Story | 0–8 sec   | Crayon scribbles the intro text. Girl smiles.    |
-| 1     | Doodle Spark        | 8–16 sec  | She starts drawing a funny-looking airplane.     |
-| 2     | Sketch Comes Alive  | 16–24 sec | Drawing glows, spins, and explodes into dust.    |
-| 3     | Jet Materializes    | 24–32 sec | The real-life Google Jet forms on her rug.       |
-| 4     | Rainbow Takeoff     | 32–40 sec | Girl boards; the jet takes off through the wall. |
-| 5     | Crayon Flight       | 40–48 sec | In the sky! Rainbow vapor trail + giggles.       |
-| 6     | VEO Reveal          | 48–56 sec | Giant cloud screen shows: "VEO 3..."             |
-
----
-
-## 🧘️‍♀️ Character Design
-
-* **Main Girl**: 6-year-old South Asian, curly pigtails, yellow hoodie, jeans
-* **Jet**: Whimsical with googly eyes, cookie engines, rainbow tail smoke
-* **Teddy Bear**: Aviator style, wears G-shaped Google logo goggles
-* **Giraffe**: Long neck pilot, playful and loyal, presses big red crayon buttons
-
----
-
-## 🚀 Repository Structure
-
-```
-/prompts/          → Gemini prompts (scene1.md to scene6.md)
-README.md          → Project summary and usage
-```
-
----
-
-## 🎉 How to Use This Project
-
-1. **Write Scenes**: Use [`/prompts/`](https://github.com/RobinaMirbahar/crayon-skies-veo3/blob/main/prompts.md) to explore and edit Gemini prompts
-2. **Generate with Veo**: Feed prompts into Veo for scene generation
-   🔗 [Veo by DeepMind](https://deepmind.google/models/veo/?utm_campaign=deveco_gdemembers&utm_source=deveco)
-   🔗 [Veo 3 API Documentation (Vertex AI)](https://cloud.google.com/vertex-ai/generative-ai/docs/models/veo/3-0-generate-preview?utm_campaign=deveco_gdemembers&utm_source=deveco)
-3. **Edit in CapCut**: Use `/video-edits/` timing to merge and transition clips
-4. **Export & Share**: Enjoy your cinematic Google Jet adventure!
-
-📄 [Storyboard & Docs](https://github.com/RobinaMirbahar/crayon-skies-veo3)
-📂 [Prompt Files](https://github.com/RobinaMirbahar/crayon-skies-veo3/blob/main/prompts.md)
-
----
-
-## 💡 Inspiration
-
-> "It began with one girl... one crayon... and a very bad idea."
->
-> But maybe the best ideas come in red crayon.
-
-Let this story be a reminder that AI-powered creativity belongs to everyone — especially those with wild ideas and big hearts.
-
-**Made with imagination, powered by Gemini + Veo, polished in CapCut.**
-
----
-
-## 👩‍💻 Author
-
-**Robina Mirbahar**
-Google Developer Expert (AI/ML) • Google Cloud Champion Innovator – Modern Architecture
-Technical Writer & Cloud Architect
-🔗 [LinkedIn](https://www.linkedin.com/in/robinamirbahar)
-🔗 [Instagram](https://instagram.com/robinamirbahar)
-🔗 [Medium](https://medium.com/@robinamirbahar)
-🔗 [GitHub](https://github.com/RobinaMirbahar)
-
-
----
-
-### 🚀 Featured Google Cloud & Agentic AI Portfolio by Robina Mirbahar
-
-| Repository | Architecture & Focus | Live Status |
+| Scene & Window | Prompt Module | Cinematography, Camera & Veo 3 Mechanics Implemented |
 | :--- | :--- | :--- |
-| **[gemma4-multilora-adk-eval](https://github.com/RobinaMirbahar/gemma4-multilora-adk-eval)** | Dynamic Multi-LoRA Hot-Swapping & CI/CD Agent Evaluation (`adk eval`) on Cloud Run GPUs with Gemma 4 & vLLM | ![Stars](https://img.shields.io/github/stars/RobinaMirbahar/gemma4-multilora-adk-eval?style=flat-square&color=4285F4) ![Last Commit](https://img.shields.io/github/last-commit/RobinaMirbahar/gemma4-multilora-adk-eval?style=flat-square) |
-| **[slothsre-napops](https://github.com/RobinaMirbahar/slothsre-napops)** | SlothSRE ("NapOps") — Overnight Gemma 4 & Google ADK Incident Digest Agent with OpenTelemetry & Sentry AI Monitoring | ![Stars](https://img.shields.io/github/stars/RobinaMirbahar/slothsre-napops?style=flat-square&color=34A853) ![Last Commit](https://img.shields.io/github/last-commit/RobinaMirbahar/slothsre-napops?style=flat-square) |
-| **[streamforge-event-adk](https://github.com/RobinaMirbahar/streamforge-event-adk)** | Real-Time Event-Driven Multi-Agent Pipelines on Google Cloud with ADK (`ParallelAgent` & `LoopAgent`), Eventarc & Pub/Sub | ![Stars](https://img.shields.io/github/stars/RobinaMirbahar/streamforge-event-adk?style=flat-square&color=FBBC04) ![Last Commit](https://img.shields.io/github/last-commit/RobinaMirbahar/streamforge-event-adk?style=flat-square) |
-| **[a2a-mcp-mesh-cloudrun](https://github.com/RobinaMirbahar/a2a-mcp-mesh-cloudrun)** | Agent-to-Agent (A2A) & Multi-MCP Mesh on Cloud Run with Gemma 4, Google ADK, Spanner Graph & AlloyDB | ![Stars](https://img.shields.io/github/stars/RobinaMirbahar/a2a-mcp-mesh-cloudrun?style=flat-square&color=EA4335) ![Last Commit](https://img.shields.io/github/last-commit/RobinaMirbahar/a2a-mcp-mesh-cloudrun?style=flat-square) |
-| **[cloudguard-gemma-agent](https://github.com/RobinaMirbahar/cloudguard-gemma-agent)** | 6-Part Production Gemma Enterprise Agent Series (ADK, Cloud Run L4 GPU, Firestore, Model Armor, Vertex AI QLoRA) | ![Stars](https://img.shields.io/github/stars/RobinaMirbahar/cloudguard-gemma-agent?style=flat-square&color=4285F4) ![Last Commit](https://img.shields.io/github/last-commit/RobinaMirbahar/cloudguard-gemma-agent?style=flat-square) |
-| **[Comic-Studio-Ai](https://github.com/RobinaMirbahar/Comic-Studio-Ai)** | Multi-Agent Comic Generator powered by Google Gemini API & FastAPI deployed on Google Cloud Run | ![Stars](https://img.shields.io/github/stars/RobinaMirbahar/Comic-Studio-Ai?style=flat-square&color=EA4335) ![Last Commit](https://img.shields.io/github/last-commit/RobinaMirbahar/Comic-Studio-Ai?style=flat-square) |
-| **[vertex-ai-imagen3](https://github.com/RobinaMirbahar/vertex-ai-imagen3)** | Generate AI-powered product & editorial images using Google Vertex AI Imagen 3 in Google Colab | ![Stars](https://img.shields.io/github/stars/RobinaMirbahar/vertex-ai-imagen3?style=flat-square&color=34A853) ![Last Commit](https://img.shields.io/github/last-commit/RobinaMirbahar/vertex-ai-imagen3?style=flat-square) |
-| **[Python-Learning-Assistant](https://github.com/RobinaMirbahar/Python-Learning-Assistant)** | AI-powered Python tutor covering 50+ interactive exercises with real-time feedback built with Streamlit + Gemini API | ![Stars](https://img.shields.io/github/stars/RobinaMirbahar/Python-Learning-Assistant?style=flat-square&color=FBBC04) ![Last Commit](https://img.shields.io/github/last-commit/RobinaMirbahar/Python-Learning-Assistant?style=flat-square) |
-| **[cozy-ai-agent-cafe-game](https://github.com/RobinaMirbahar/cozy-ai-agent-cafe-game)** | Prompt Paws: 60 FPS Cozy AI Agent Bakery Simulation Game teaching RAG, Guardrails, Context Caching & Multi-Agent Loops | ![Stars](https://img.shields.io/github/stars/RobinaMirbahar/cozy-ai-agent-cafe-game?style=flat-square&color=7928CA) ![Last Commit](https://img.shields.io/github/last-commit/RobinaMirbahar/cozy-ai-agent-cafe-game?style=flat-square) |
+| **#0: (Mostly) True Story**<br>`00:00 – 00:08` | [`prompts.md#intro`](prompts.md) | Macro top-down shot of a red wax crayon scribbling the hand-drawn title card across textured sketchbook paper before tilting up to the young creator smiling in her sunlit bedroom. |
+| **#1: Doodle Spark**<br>`00:08 – 00:16` | [`prompts.md#scene-1`](prompts.md) | Over-the-shoulder tracking shot as she sketches a whimsical airplane with googly eyes, cookie-shaped turbine engines, and a giraffe pilot wearing Google *"G"* aviator goggles. |
+| **#2: Sketch Comes Alive**<br>`00:16 – 00:24` | [`prompts.md#scene-2`](prompts.md) | Magical realism transition: the 2D red-crayon lines begin to glow warm gold, lift off the paper grain, and spin into a vortex of pastel stardust. |
+| **#3: Jet Materializes**<br>`00:24 – 00:32` | [`prompts.md#scene-3`](prompts.md) | 2D-to-3D volumetric pop: the full-scale whimsical **Google Jet** materializes right on her bedroom rug, complete with spinning cookie propellers and the aviator teddy bear waving from the cockpit. |
+| **#4: Rainbow Takeoff**<br>`00:32 – 00:40` | [`prompts.md#scene-4`](prompts.md) | Dynamic wide tracking shot: she hops aboard, the giraffe co-pilot presses a giant red-crayon launch button, and the jet zooms out into the golden sky leaving a pastel rainbow trail. |
+| **#5: Crayon Flight**<br>`00:40 – 00:48` | [`prompts.md#scene-5`](prompts.md) | Aerial chase-cam sweeping through cotton-candy clouds as rainbow vapor trails curl around the wings and the cockpit crew shares joyful laughter. |
+| **#6: VEO 3 Sky Reveal**<br>`00:48 – 00:56` | [`prompts.md#scene-6`](prompts.md) | Wide crane pull-back as the jet skywrites **`VEO 3`** across a giant sunlit cloud canvas—closing on the reminder that the boldest ideas often start in red crayon. |
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/RobinaMirbahar/RobinaMirbahar/main/ProfileImages/GithubBanner.svg" alt="Robina Mirbahar Banner" width="100%" />
-</div>
-
-<!-- AUTHOR_SIGNATURE_START -->
 ---
 
-## 👩‍💻 About the Author
+## 📦 Reproduction & Production Workflow
 
-**Robina Mirbahar — Google Cloud & AI Architect**  
-*Google Developer Expert (GDE) in Cloud & AI • Published Author • Multi-Agent Systems & Serverless GPU Builder*
-
-[![GitHub](https://img.shields.io/badge/GitHub-RobinaMirbahar-181717?style=for-the-badge&logo=github)](https://github.com/RobinaMirbahar)
-[![Medium](https://img.shields.io/badge/Medium-@robinamirbahar-000000?style=for-the-badge&logo=medium)](https://medium.com/@robinamirbahar)
-[![DEV.to](https://img.shields.io/badge/DEV.to-robinamirbahar-0A0A0A?style=for-the-badge&logo=devdotto)](https://dev.to/robinamirbahar)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Robina_Mirbahar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/robinamirbahar)
-[![GDE Profile](https://img.shields.io/badge/Google_Developer_Expert-Profile-4285F4?style=for-the-badge&logo=google)](https://g.dev/RobinaMirbahar?utm_campaign=deveco_gdemembers&utm_source=deveco)
-[![YouTube](https://img.shields.io/badge/YouTube-@RobinaCodesAI-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@RobinaCodesAI)
-[![X](https://img.shields.io/badge/X-@RobinaMirbahar-000000?style=for-the-badge&logo=x)](https://x.com/RobinaMirbahar)
-[![Amazon Author](https://img.shields.io/badge/Amazon_Book-Cloud_Computing_Voyage-FF9900?style=for-the-badge&logo=amazon)](https://www.amazon.com/dp/B0D146249R)
-
-<!-- AUTHOR_SIGNATURE_END -->
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/RobinaMirbahar/crayon-skies-veo3.git
+   cd crayon-skies-veo3
+   ```
+2. **Generate Scene Clips with Gemini + Veo 3:**
+   * Open [`prompts.md`](prompts.md) in **[Google AI Studio](https://aistudio.google.com/?utm_campaign=deveco_gdemembers&utm_source=deveco)** / **[Gemini API](https://ai.google.dev/gemini-api/docs?utm_campaign=deveco_gdemembers&utm_source=deveco)** to customize scene prompts.
+   * Render each 8-second scene clip in **[Google Cloud Vertex AI (Veo 3)](https://cloud.google.com/vertex-ai/generative-ai/docs/models/veo/3-0-generate-preview?utm_campaign=deveco_gdemembers&utm_source=deveco)** ([DeepMind Veo](https://deepmind.google/models/veo/?utm_campaign=deveco_gdemembers&utm_source=deveco)).
+   * Sequence and export the 60-second master cut in **CapCut**.
